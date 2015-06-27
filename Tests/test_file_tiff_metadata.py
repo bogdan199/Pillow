@@ -15,7 +15,7 @@ class TestFileTiffMetadata(PillowTestCase):
 
         img = hopper()
 
-	    basetextdata = "This is some arbitrary metadata for a text field"
+        basetextdata = "This is some arbitrary metadata for a text field"
         textdata = basetextdata + " \xff"
         floatdata = 12.345
         doubledata = 67.89
